@@ -9,6 +9,8 @@ private enum Snapshot {
             let identifier = "tvOS"
         #elseif os(iOS)
             let identifier = "iOS"
+        #elseif os(visionOS)
+    l       let identifier = "visionOS"
         #elseif os(OSX)
             let identifier = "macOS"
         #else
